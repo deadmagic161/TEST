@@ -1,0 +1,57 @@
+.gradient {
+	background: linear-gradient(to bottom, #368ddc, #1b69af);
+	border-radius: 10px;
+	-moz-border-radius: 10px; 
+  	-webkit-border-radius: 10px;
+  	box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, .2);
+  	-moz-box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, .2);
+  	-webkit-box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, .2);
+  	transition: 1s opacity;
+	margin: 0 auto;
+	opacity: 1;
+	height: 1300px;
+	width: 500px;
+}
+
+.gradient:hover {
+	opacity: 0;
+}
+
+.button__scroll-up:before {
+	background-image: url(../img/up-arrow.svg);
+	background-size: 50px;
+	display: block;
+	content: " ";
+	position: fixed;
+	text-decoration: none;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	visibility: visible;
+}
+
+.button__scrollUp:hover {
+	opacity: 0;
+}
+
+.text-button {
+	background: #fff;
+	cursor: pointer;
+	color: black;
+	visibility: hidden;
+	position: fixed;
+	text-align: center;
+	right: 10px;
+	bottom: 10px;
+	margin: 0;
+	width: 50px;
+	height: 50px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+ .wrapper__button:hover .text-button {
+	visibility: visible;
+}
+
